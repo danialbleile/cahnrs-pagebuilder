@@ -1,0 +1,72 @@
+/** START LAYOUTS ******************/
+.pagbuilder-layout-full .pagebuilder-column{
+	display: block;
+}
+
+.pagbuilder-layout-aside .pagebuilder-column {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.pagbuilder-layout-aside .pagebuilder-column.pagebuilder-column-1 {
+	width: 75%;
+}
+
+.pagbuilder-layout-aside .pagebuilder-column.pagebuilder-column-2 {
+	width: 25%;
+}
+
+.pagbuilder-layout-aside.empty-aside .pagebuilder-column {
+	display: block;
+}
+
+.pagbuilder-layout-aside.empty-aside .pagebuilder-column.pagebuilder-column-1 {
+	display: block;
+	width: auto;
+}
+.pagbuilder-layout-aside.empty-aside .pagebuilder-column.pagebuilder-column-2 {
+	display: none;
+}
+
+.pagbuilder-layout-thirds .pagebuilder-column {
+	display: inline-block;
+	vertical-align: top;
+	width: 33.33%;
+}
+
+.pagbuilder-layout-fourths .pagebuilder-column {
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+}
+/** BASIC ITEM STYLES **************************/
+.pagebuilder-column img {
+	max-width: 100%;
+	height: auto;
+}
+
+.pagebuilder-column aside,
+.pagebuilder-column article {
+	display: block;
+	margin: 0 10px 20px 10px;
+}
+
+/** CSS HOOKS **********************************/
+
+/* no-side-margin */
+.pagebuilder-column aside.no-side-margin,
+.pagebuilder-column article.no-side-margin {
+	margin: 0 0 20px 0;
+}
+
+/* no-bottom-margin */
+.pagebuilder-column aside.no-bottom-margin,
+.pagebuilder-column article.no-bottom-margin {
+	margin: 0 10px 0 10px;
+}
+
+/* no-margin */
+.pagebuilder-column aside.no-margin,
+.pagebuilder-column article.no-margin {
+	margin: 0;
+}
