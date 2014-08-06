@@ -243,7 +243,7 @@ var pagebuilder = function(){
 			if( id in s.exst_itms ){
 				s.exst_itms[ id ] = s.exst_itms[ id ] + 1;
 			} else {
-				s.exst_itms[ dataid ] = 1;
+				s.exst_itms[ id ] = 1;
 			}
 			var item_count = s.exst_itms[ id ];
 			//var item_count = jQuery('.'+id ).length + 1;
