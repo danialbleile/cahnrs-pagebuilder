@@ -7,4 +7,5 @@
 <file name="render_site_control.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/" local="130518157392849528" remote="130518157200000000" Dst="2" />
 <file name="render_site_control.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/m1.wpdev.cahnrs.wsu.edu/wp-content/plugins/cahnrs-pagebuilder/" local="130518888054868697" remote="130518888000000000" Dst="2" />
 <file name="metabox_control.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/m1.wpdev.cahnrs.wsu.edu/wp-content/plugins/cahnrs-pagebuilder/" local="130518888005795890" remote="130518888000000000" Dst="2" />
+<file name="autoload_control.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/m1.wpdev.cahnrs.wsu.edu/wp-content/plugins/cahnrs-pagebuilder/" local="130512957000000000" remote="130512957000000000" Dst="2" />
 </dwsync>
