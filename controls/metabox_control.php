@@ -112,7 +112,7 @@ class metabox_control {
 						  $new_content .= '<aside id="'.$item_key.'" class="'.$item['id'].'" >'.$pb_editors_clean[ $item_key ].'</aside>';
 					  }
 					  else if( $item['settings']['is_content'] ){
-						  $new_content .= '<aside id="'.$item_key.'" class="'.$item['id'].'" >item</aside>';
+						  $new_content .= '<aside id="'.$item_key.'" class="'.$item['id'].'" ></aside>';
 					  }
 				  }
 				  
