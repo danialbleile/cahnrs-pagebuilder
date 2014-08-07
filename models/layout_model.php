@@ -96,7 +96,7 @@ class layout_model {
 	public function get_items( $layout_array, $type = false ){
 		$items = array();
 		foreach( $layout_array as $row ){
-			if( $row['columns'] ){
+			if( isset( $row['columns'] ) ){
 				foreach( $row['columns'] as $column_key => $column ){
 					foreach( $column['items'] as $item_key => $item_value ){
 						if( $type ){
