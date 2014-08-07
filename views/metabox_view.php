@@ -40,7 +40,8 @@ class metabox_view {
                 Primary Content
             </header>
             <?php
-			\wp_editor( $primary_content , '_pagebuilder_editor[primary_content]' );?>
+			$primary_settings = array('textarea_name'=> '_pagebuilder_editor[primary_content]' );
+			\wp_editor( $primary_content , 'primary_content', $primary_settings );?>
             <footer class="pagebuilder-lightbox-show">
                 <a href="#" class="settings-done lb-close-action">Done</a><br>
                 <a href="#" class="remove-item-action">Remove Item</a>
@@ -112,7 +113,10 @@ class metabox_view {
                     <div class="header-settings">
                     	
                     </div>
-                    <?php \wp_editor( $editor_content , '_pagebuilder_editor['.$item_key.']' );?>
+                    <?php 
+					$primary_settings = array('textarea_name'=> '_pagebuilder_editor['.$item_key.']' );
+					$content_editor_id = str_replace('-','_', $item_key );
+					\wp_editor( $editor_content , $content_editor_id , $primary_settings );?>
                     <footer class="pagebuilder-lightbox-show">
                     	<a href="#" class="settings-done lb-close-action">Done</a><br>
                         <a href="#" class="remove-item-action">Remove Item</a>
